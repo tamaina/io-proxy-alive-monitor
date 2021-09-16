@@ -59,7 +59,6 @@ function detect() {
                 .then(async resp => {
                     const body = await resp.json();
                     if (resp.status === 200) {
-                        console.log(body)
                         const found = body.filter(note => note.text && note.text.startsWith(iso));
                         if (found.length === setting.try) return res(false);
                         else return res(instance.host)
