@@ -66,7 +66,7 @@ function detect() {
                     else rej({ status: resp.status, message: body.error });
                 })
                 .catch(rej)
-            }, 60000)
+            }, 120000)
         }))
     }
 
