@@ -1,0 +1,24 @@
+{
+  "name": "alive",
+  "version": "1.0.0",
+  "description": "あるインスタンスの配信を他のインスタンスから監視します。",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tamaina/io-proxy-alive-monitor.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tamaina/io-proxy-alive-monitor/issues"
+  },
+  "homepage": "https://github.com/tamaina/io-proxy-alive-monitor#readme",
+  "dependencies": {
+    "node-fetch": "^3.0.0"
+  }
+}
